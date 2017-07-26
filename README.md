@@ -1,7 +1,7 @@
-# powerbi-plotlyscatterchart
+# PowerBI Plotly-Scatter-Chart
 Scatter Chart Custom Visual for PowerBI implemented using plotly.js
 
-# Features
+## Features
 Using outstanding plotly scatter chart within PowerBI
 - Zoomable
 - Popups showing exact value
@@ -15,14 +15,14 @@ Screenshots:
 ![Fields](screenshot_fields.png)
 ![Format](screenshot_format.png)
 
-# Build
+## Build
 Precondition: npm, typings and pbiviz are installed.
 
 1. typings install
 2. pbiviz update
 3. Create customized lodash build in ./external:
--- install lodash-cli: npm i -g lodash-cli
--- lodash category=array,collection,object,lang -o external\lodash.custom.js
-4. Download plotly-basic.min javascript library into directory ./external from the following URL: https://cdn.plot.ly/plotly-basic-latest.min.js
+    - install lodash-cli: npm i -g lodash-cli
+    - lodash category=array,collection,object,lang -o external\lodash.custom.js
+4. Download plotly-basic.min.js library into directory ./external from the following URL: https://cdn.plot.ly/plotly-basic-latest.min.js
 5. Create custom visual file: pbiviz package
 6. Use ./dist/plotlyscatter.pbiviz in PowerBI Desktop and Online
