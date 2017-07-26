@@ -12,12 +12,15 @@ Data is always sampled to max 10000 records (see dataReductionAlgorithm in capab
 
 ## Screenshots
 Sample Chart:
+
 ![Chart](screenshot_chart.png)
 
-Field Configuration
+Field Configuration:
+
 ![Fields](screenshot_fields.png)
 
-Format Configuration
+Format Configuration:
+
 ![Format](screenshot_format.png)
 
 ## Build
