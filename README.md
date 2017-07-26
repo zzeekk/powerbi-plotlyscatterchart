@@ -4,15 +4,20 @@ Scatter Chart Custom Visual for PowerBI implemented using plotly.js
 ## Features
 Using outstanding plotly scatter chart within PowerBI
 - Zoomable
-- Popups showing exact value
+- Tooltips showing exact value
 - Second Y-Axis
 - Split data into multiple traces
 
 Data is always sampled to max 10000 records (see dataReductionAlgorithm in capabilities.json). Like this it's possible to see an overview of bigger datasets.
 
-Screenshots:
+## Screenshots
+Sample Chart:
 ![Chart](screenshot_chart.png)
+
+Field Configuration
 ![Fields](screenshot_fields.png)
+
+Format Configuration
 ![Format](screenshot_format.png)
 
 ## Build
