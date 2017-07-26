@@ -82,7 +82,7 @@ module powerbi.extensibility.visual {
           // extract
           let cols = dataViews[0].table.columns;
           let rows = dataViews[0].table.rows;
-          console.log("plotlyscatter rowcount: " + rows.length);
+          //console.log("plotlyscatter rowcount: " + rows.length);
           // prepare legend: split data into multiple arrays if legend given.
           let colSplitBy = cols.filter( c => this.getFirstRole(c)=="splitby" )[0];
           let iSplitBy = Number(_.get( colSplitBy, "index"));
@@ -153,7 +153,7 @@ module powerbi.extensibility.visual {
       			let traces = this.getTraces(options.dataViews);
             let layout = this.getLayout(options.viewport, traces);
             //console.log('Traces', traces);
-            console.log('Layout', layout);
+            //console.log('Layout', layout);
             // plot
             this.plot(traces, layout);
           } catch (e) {
