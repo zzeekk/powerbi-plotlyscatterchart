@@ -1,0 +1,9 @@
+{
+  "name": "PlotlyScatter",
+  "dependencies": {
+    "loadash": "0.0.1",
+    "lodash": "^4.17.4",
+    "plotly.js": "^1.25.2",
+    "require.js": "^1.0.0"
+  }
+}

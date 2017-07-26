@@ -1,0 +1,24 @@
+{
+  "visual": {
+    "name": "plotlyscatter",
+    "displayName": "PlotlyScatter",
+    "guid": "PBI_CV_F2A42EF5_1015_4BC6_8C0E_AD0E5451F387",
+    "visualClassName": "PlotlyVisual",
+    "version": "1.0.0",
+    "description": "",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "1.4.0",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "assets": {
+    "icon": "assets/plotly.png"
+  },
+  "externalJS": [ "external/lodash.custom.js", "external/plotly-basic.min.js" ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json"
+}

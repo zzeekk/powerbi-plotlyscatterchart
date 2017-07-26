@@ -1,0 +1,139 @@
+{
+    "dataRoles": [{
+            "displayName": "X-Axis",
+            "name": "x",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Y-Axis 1",
+            "name": "y1",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Y-Axis 2",
+            "name": "y2",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Split by",
+            "name": "splitby",
+            "kind": "Grouping"
+        }
+    ],
+    "dataViewMappings": [{
+        "conditions": [{
+            "x": {
+                "max": 1
+            },
+            "legend": {
+                "max": 1
+            }
+        }],
+        "table": {
+            "rows": {
+                "select": [{
+                        "for": {
+                            "in": "x"
+                        }
+                    },
+                    {
+                        "for": {
+                            "in": "y1"
+                        }
+                    },
+                    {
+                        "for": {
+                            "in": "y2"
+                        }
+                    },
+                    {
+                        "for": {
+                            "in": "splitby"
+                        }
+                    }
+                ],
+                "dataReductionAlgorithm": { "sample": { "count": 10000 }}
+            },
+            "dataVolume": 6
+        }
+    }],
+    "suppressDefaultTitle": true,
+    "objects": {
+        "xAxis": {
+            "displayName": "X-Axis",
+            "properties": {
+                "title": {
+                    "displayName": "Title",
+                    "type": {"text": true}
+                },
+                "margin": {
+                    "displayName": "Margin",
+                    "type": {"text": true}
+                }
+            }
+        },
+        "y1Axis": {
+            "displayName": "Y1-Axis",
+            "properties": {
+                "title": {
+                    "displayName": "Title",
+                    "type": {"text": true}
+                  },
+                  "margin": {
+                      "displayName": "Margin",
+                      "type": {"text": true}
+                  }
+            }
+        },
+        "y2Axis": {
+            "displayName": "Y2-Axis",
+            "properties": {
+                "title": {
+                    "displayName": "Title",
+                    "type": {"text": true}
+                },
+                "margin": {
+                    "displayName": "Margin",
+                    "type": {"text": true}
+                }
+            }
+        },
+        "margin": {
+            "displayName": "Margins",
+            "properties": {
+                "l": {
+                    "displayName": "Left",
+                    "type": {"numeric": true}
+                },
+                "r": {
+                    "displayName": "Right",
+                    "type": {"numeric": true}
+                },
+                "t": {
+                    "displayName": "Top",
+                    "type": {"numeric": true}
+                },
+                "b": {
+                    "displayName": "Bottom",
+                    "type": {"numeric": true}
+                }
+            }
+        },
+        "legend": {
+            "displayName": "Legend",
+            "properties": {
+                "enabled": {
+                    "displayName": "Enabled",
+                    "type": {"bool": true}
+                },
+                "orientation": {
+                    "displayName": "Orientation",
+                    "type": {"enumeration": [
+                      { "displayName": "Vertical", "value": "v" },
+                      { "displayName": "Horizontal", "value": "h"}
+                    ]}
+                }
+            }
+        }
+    }
+}

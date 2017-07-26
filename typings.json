@@ -1,0 +1,6 @@
+{
+  "globalDependencies": {
+    "lodash": "registry:global/lodash#4.0.0+20160723033700",
+    "plotly.js": "registry:dt/plotly.js#0.0.0+20161005184000"
+  }
+}
