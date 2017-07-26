@@ -8,7 +8,12 @@ Using outstanding plotly scatter chart within PowerBI
 - Second Y-Axis
 - Split data into multiple traces
 
-Data is always sampled to max 10000 records (see dataReductionAlgorithm in capabilities.json). Like this it's possible to see an overview of bigger datasets.  
+Data is always sampled to max 10000 records (see dataReductionAlgorithm in capabilities.json). Like this it's possible to see an overview of bigger datasets.
+
+Screenshots:
+![Chart](screenshot_chart.png)
+![Fields](screenshot_fields.png)
+![Format](screenshot_format.png)
 
 # Build
 Precondition: npm, typings and pbiviz are installed.
