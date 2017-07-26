@@ -5,19 +5,21 @@
     "guid": "PBI_CV_F2A42EF5_1015_4BC6_8C0E_AD0E5451F387",
     "visualClassName": "PlotlyVisual",
     "version": "1.0.0",
-    "description": "",
+    "description": "Scatter Chart Custom Visual for PowerBI implemented using plotly.js",
     "supportUrl": "",
-    "gitHubUrl": ""
+    "gitHubUrl": "https://github.com/zzeekk/powerbi-plotlyscatterchart"
   },
-  "apiVersion": "1.4.0",
+  "apiVersion": "1.7.0",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "https://github.com/zzeekk"
   },
   "assets": {
     "icon": "assets/plotly.png"
   },
-  "externalJS": [ "external/lodash.custom.js", "external/plotly-basic.min.js" ],
+  "externalJS": [
+    "external/lodash.custom.js",
+    "external/plotly-basic.min.js"
+  ],
   "style": "style/visual.less",
   "capabilities": "capabilities.json",
   "dependencies": "dependencies.json"
